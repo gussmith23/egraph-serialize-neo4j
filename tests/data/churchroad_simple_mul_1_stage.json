@@ -1,0 +1,871 @@
+{
+  "nodes": {
+    "function-0-And": {
+      "op": "And",
+      "children": [],
+      "eclass": "Op-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Add": {
+      "op": "Add",
+      "children": [],
+      "eclass": "Op-1",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Sub": {
+      "op": "Sub",
+      "children": [],
+      "eclass": "Op-2",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Mul": {
+      "op": "Mul",
+      "children": [],
+      "eclass": "Op-3",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Or": {
+      "op": "Or",
+      "children": [],
+      "eclass": "Op-4",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Xor": {
+      "op": "Xor",
+      "children": [],
+      "eclass": "Op-5",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Shr": {
+      "op": "Shr",
+      "children": [],
+      "eclass": "Op-6",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Ashr": {
+      "op": "Ashr",
+      "children": [],
+      "eclass": "Op-7",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Shl": {
+      "op": "Shl",
+      "children": [],
+      "eclass": "Op-8",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Eq": {
+      "op": "Eq",
+      "children": [],
+      "eclass": "Op-10",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Ne": {
+      "op": "Ne",
+      "children": [],
+      "eclass": "Op-11",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Not": {
+      "op": "Not",
+      "children": [],
+      "eclass": "Op-9",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-i64-0": {
+      "op": "0",
+      "children": [],
+      "eclass": "i64-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Reg": {
+      "op": "Reg",
+      "children": [
+        "primitive-i64-0"
+      ],
+      "eclass": "Op-18",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-1879048280": {
+      "op": "\"a\"",
+      "children": [],
+      "eclass": "String-1879048280",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-i64-16": {
+      "op": "16",
+      "children": [],
+      "eclass": "i64-16",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-Var": {
+      "op": "Var",
+      "children": [
+        "primitive-String-1879048280",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-13",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-1342177370": {
+      "op": "\"b\"",
+      "children": [],
+      "eclass": "String-1342177370",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-Var": {
+      "op": "Var",
+      "children": [
+        "primitive-String-1342177370",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-14",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-3221225553": {
+      "op": "\"clk\"",
+      "children": [],
+      "eclass": "String-3221225553",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-i64-1": {
+      "op": "1",
+      "children": [],
+      "eclass": "i64-1",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-5-Var": {
+      "op": "Var",
+      "children": [
+        "primitive-String-3221225553",
+        "primitive-i64-1"
+      ],
+      "eclass": "Expr-15",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-Op2": {
+      "op": "Op2",
+      "children": [
+        "function-0-Mul",
+        "function-9-InputOutputMarker",
+        "function-10-InputOutputMarker"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-Op2": {
+      "op": "Op2",
+      "children": [
+        "function-0-Reg",
+        "function-5-Var",
+        "function-3-PrimitiveInterfaceDSP"
+      ],
+      "eclass": "Expr-16",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-3758096452": {
+      "op": "\"v0-1752973183435925000\"",
+      "children": [],
+      "eclass": "String-3758096452",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Wire": {
+      "op": "Wire",
+      "children": [
+        "primitive-String-3758096452",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-3758096453": {
+      "op": "\"v1-1752973183435925000\"",
+      "children": [],
+      "eclass": "String-3758096453",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-Wire": {
+      "op": "Wire",
+      "children": [
+        "primitive-String-3758096453",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-13",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-1073741903": {
+      "op": "\"v2-1752973183435925000\"",
+      "children": [],
+      "eclass": "String-1073741903",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-Wire": {
+      "op": "Wire",
+      "children": [
+        "primitive-String-1073741903",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-14",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-805306466": {
+      "op": "\"v3-1752973183435925000\"",
+      "children": [],
+      "eclass": "String-805306466",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-Wire": {
+      "op": "Wire",
+      "children": [
+        "primitive-String-805306466",
+        "primitive-i64-1"
+      ],
+      "eclass": "Expr-15",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-2952790100": {
+      "op": "\"v4-1752973183435925000\"",
+      "children": [],
+      "eclass": "String-2952790100",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-4-Wire": {
+      "op": "Wire",
+      "children": [
+        "primitive-String-2952790100",
+        "primitive-i64-16"
+      ],
+      "eclass": "Expr-16",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Bitvector": {
+      "op": "Bitvector",
+      "children": [
+        "primitive-i64-16"
+      ],
+      "eclass": "Type-25",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-Bitvector": {
+      "op": "Bitvector",
+      "children": [
+        "primitive-i64-1"
+      ],
+      "eclass": "Type-26",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Input": {
+      "op": "Input",
+      "children": [],
+      "eclass": "PortDirection-20",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Output": {
+      "op": "Output",
+      "children": [],
+      "eclass": "PortDirection-24",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-Unit-0": {
+      "op": "()",
+      "children": [],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-1879048198": {
+      "op": "\"\"",
+      "children": [],
+      "eclass": "String-1879048198",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-IsPort": {
+      "op": "IsPort",
+      "children": [
+        "primitive-String-1879048198",
+        "primitive-String-1879048280",
+        "function-0-Input",
+        "function-15-InputOutputMarker"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-IsPort": {
+      "op": "IsPort",
+      "children": [
+        "primitive-String-1879048198",
+        "primitive-String-1342177370",
+        "function-0-Input",
+        "function-16-InputOutputMarker"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-IsPort": {
+      "op": "IsPort",
+      "children": [
+        "primitive-String-1879048198",
+        "primitive-String-3221225553",
+        "function-0-Input",
+        "function-5-Var"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-4026531948": {
+      "op": "\"out\"",
+      "children": [],
+      "eclass": "String-4026531948",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-IsPort": {
+      "op": "IsPort",
+      "children": [
+        "primitive-String-1879048198",
+        "primitive-String-4026531948",
+        "function-0-Output",
+        "function-17-InputOutputMarker"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-HasType": {
+      "op": "HasType",
+      "children": [
+        "function-11-InputOutputMarker",
+        "function-0-Bitvector"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-HasType": {
+      "op": "HasType",
+      "children": [
+        "function-1-Var",
+        "function-0-Bitvector"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-HasType": {
+      "op": "HasType",
+      "children": [
+        "function-3-Var",
+        "function-0-Bitvector"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-HasType": {
+      "op": "HasType",
+      "children": [
+        "function-3-Wire",
+        "function-1-Bitvector"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-4-HasType": {
+      "op": "HasType",
+      "children": [
+        "function-3-Op2",
+        "function-0-Bitvector"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-And"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Add"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Sub"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Mul"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-4-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Or"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-5-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Xor"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-6-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Shr"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-7-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Ashr"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-8-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Shl"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-9-AllBitwidthsMatch": {
+      "op": "AllBitwidthsMatch",
+      "children": [
+        "function-0-Not"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-InputBitwidthsMatchOutputBitwidthConst": {
+      "op": "InputBitwidthsMatchOutputBitwidthConst",
+      "children": [
+        "function-0-Eq",
+        "primitive-i64-1"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-InputBitwidthsMatchOutputBitwidthConst": {
+      "op": "InputBitwidthsMatchOutputBitwidthConst",
+      "children": [
+        "function-0-Ne",
+        "primitive-i64-1"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-Bitwise": {
+      "op": "Bitwise",
+      "children": [
+        "function-0-And"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-Bitwise": {
+      "op": "Bitwise",
+      "children": [
+        "function-0-Or"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-Bitwise": {
+      "op": "Bitwise",
+      "children": [
+        "function-0-Xor"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-124": {
+      "op": "\"Q7A3GqDKK7uznP44bCCE0lb7UEIfRlD4BW2wtfYh4HnfwA00D88i5qi3iR6sV4NJ\"",
+      "children": [],
+      "eclass": "String-124",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-PrimitiveInterfaceDSP": {
+      "op": "PrimitiveInterfaceDSP",
+      "children": [
+        "primitive-i64-0",
+        "primitive-String-124",
+        "function-1-Wire",
+        "function-2-Wire"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-3221225603": {
+      "op": "\"Qnokm8eKqZlXHw0bqT1j8SkDEHzKoqgl3AeOQe9zjwBWjUaEkzh0PRcnKbzG0E2l\"",
+      "children": [],
+      "eclass": "String-3221225603",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-4-PrimitiveInterfaceDSP": {
+      "op": "PrimitiveInterfaceDSP",
+      "children": [
+        "primitive-i64-0",
+        "primitive-String-3221225603",
+        "function-9-InputOutputMarker",
+        "function-10-InputOutputMarker"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "primitive-String-536871048": {
+      "op": "\"oSkn4IxItcAsbDYts6IXc5i4ef9WJMtV3Pc5SNojSpThfANvc4xenE51S7Z6yhup\"",
+      "children": [],
+      "eclass": "String-536871048",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-5-PrimitiveInterfaceDSP": {
+      "op": "PrimitiveInterfaceDSP",
+      "children": [
+        "primitive-i64-1",
+        "primitive-String-536871048",
+        "function-12-InputOutputMarker",
+        "function-13-InputOutputMarker"
+      ],
+      "eclass": "Expr-16",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-9-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1879048280",
+        "primitive-String-124"
+      ],
+      "eclass": "Expr-13",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-10-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1342177370",
+        "primitive-String-124"
+      ],
+      "eclass": "Expr-14",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-11-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-4026531948",
+        "primitive-String-124"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-12-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1879048280",
+        "primitive-String-3221225603"
+      ],
+      "eclass": "Expr-13",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-13-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1342177370",
+        "primitive-String-3221225603"
+      ],
+      "eclass": "Expr-14",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-14-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-4026531948",
+        "primitive-String-3221225603"
+      ],
+      "eclass": "Expr-12",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-15-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1879048280",
+        "primitive-String-536871048"
+      ],
+      "eclass": "Expr-13",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-16-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-1342177370",
+        "primitive-String-536871048"
+      ],
+      "eclass": "Expr-14",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-17-InputOutputMarker": {
+      "op": "InputOutputMarker",
+      "children": [
+        "primitive-String-4026531948",
+        "primitive-String-536871048"
+      ],
+      "eclass": "Expr-16",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-0-RealBitwidth": {
+      "op": "RealBitwidth",
+      "children": [
+        "function-9-InputOutputMarker",
+        "primitive-i64-16"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-1-RealBitwidth": {
+      "op": "RealBitwidth",
+      "children": [
+        "function-10-InputOutputMarker",
+        "primitive-i64-16"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-2-RealBitwidth": {
+      "op": "RealBitwidth",
+      "children": [
+        "function-5-Var",
+        "primitive-i64-1"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    },
+    "function-3-RealBitwidth": {
+      "op": "RealBitwidth",
+      "children": [
+        "function-4-PrimitiveInterfaceDSP",
+        "primitive-i64-16"
+      ],
+      "eclass": "Unit-0",
+      "cost": 1.0,
+      "subsumed": false
+    }
+  },
+  "root_eclasses": [],
+  "class_data": {
+    "Op-0": {
+      "type": "Op"
+    },
+    "Op-1": {
+      "type": "Op"
+    },
+    "Op-2": {
+      "type": "Op"
+    },
+    "Op-3": {
+      "type": "Op"
+    },
+    "Op-4": {
+      "type": "Op"
+    },
+    "Op-5": {
+      "type": "Op"
+    },
+    "Op-6": {
+      "type": "Op"
+    },
+    "Op-7": {
+      "type": "Op"
+    },
+    "Op-8": {
+      "type": "Op"
+    },
+    "Op-10": {
+      "type": "Op"
+    },
+    "Op-11": {
+      "type": "Op"
+    },
+    "Op-9": {
+      "type": "Op"
+    },
+    "Op-18": {
+      "type": "Op"
+    },
+    "i64-0": {
+      "type": "i64"
+    },
+    "Expr-13": {
+      "type": "Expr"
+    },
+    "String-1879048280": {
+      "type": "String"
+    },
+    "i64-16": {
+      "type": "i64"
+    },
+    "Expr-14": {
+      "type": "Expr"
+    },
+    "String-1342177370": {
+      "type": "String"
+    },
+    "Expr-15": {
+      "type": "Expr"
+    },
+    "String-3221225553": {
+      "type": "String"
+    },
+    "i64-1": {
+      "type": "i64"
+    },
+    "Expr-12": {
+      "type": "Expr"
+    },
+    "Expr-16": {
+      "type": "Expr"
+    },
+    "String-3758096452": {
+      "type": "String"
+    },
+    "String-3758096453": {
+      "type": "String"
+    },
+    "String-1073741903": {
+      "type": "String"
+    },
+    "String-805306466": {
+      "type": "String"
+    },
+    "String-2952790100": {
+      "type": "String"
+    },
+    "Type-25": {
+      "type": "Type"
+    },
+    "Type-26": {
+      "type": "Type"
+    },
+    "PortDirection-20": {
+      "type": "PortDirection"
+    },
+    "PortDirection-24": {
+      "type": "PortDirection"
+    },
+    "Unit-0": {
+      "type": "Unit"
+    },
+    "String-1879048198": {
+      "type": "String"
+    },
+    "String-4026531948": {
+      "type": "String"
+    },
+    "String-124": {
+      "type": "String"
+    },
+    "String-3221225603": {
+      "type": "String"
+    },
+    "String-536871048": {
+      "type": "String"
+    }
+  }
+}
